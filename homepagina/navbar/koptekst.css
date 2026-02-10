@@ -1,0 +1,62 @@
+.first-tier {
+  height: 80px;
+  margin-bottom: 0px;
+  background-color: #005e95;
+}
+
+.first-tier .nav > li > a {
+  margin-top: 5px;
+  padding: 3px 6px;
+  color: #fff;
+}
+
+.first-tier .nav > li > a:focus,
+.first-tier .nav>li>a:hover {
+  background-color: #136fbf;
+  color: #fff;
+}
+
+.first-tier .site-logo img {
+  vertical-align: middle;
+}
+
+.first-tier h1 {
+  display: inline;
+  font-size: 25px;
+}
+
+.second-tier {
+  margin-bottom: 0px;
+  background-color: #05466c;
+}
+
+.site-header .navbar-header img {
+  vertical-align: middle;
+  height: 50px;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .first-tier {
+    height: 100px;
+  }
+}
+
+@media (max-width: 498px) {
+  .navbar-brand {
+    padding: 0px;
+  }
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #ffffff;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
